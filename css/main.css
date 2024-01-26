@@ -1,0 +1,60 @@
+# Instructions
+
+Fork this repository to start working on the assignment.
+
+Here are the base CSS styles to start with.
+
+```css
+body {
+  font-family: Arial;
+  color: #222;
+}
+
+.emojis {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem; 
+}
+
+.emoji {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji h2 {
+  margin: 0;
+  border-bottom: 2px solid #ccc;
+  width: 100%; 
+}
+
+.emoji a {
+  text-decoration: none;
+  background-color: #781BAA;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 90%; 
+  display: block; 
+}
+
+.icon {
+  font-size: 4rem;
+ order: -1; 
+}
+
+.emojis .emoji:nth-child(1) a {
+  margin-top: 28px; 
+}
+
+.emojis .emoji:nth-child(2) a {
+  margin-top: 10px; 
+}
+
+.emojis .emoji:nth-child(4) a {
+  margin-top: 30px; 
+}
